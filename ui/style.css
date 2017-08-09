@@ -20,3 +20,13 @@ body {
     height: 200px;
 }
 
+ .container{
+               max-width: 800px;
+               margin: 0 auto;
+               font-family: roboto;
+               color: #131112;
+               padding-top: 76px;
+               padding-left: 40px;
+               padding-right: 40px;
+        }
+
