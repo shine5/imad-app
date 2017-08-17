@@ -7,7 +7,7 @@ var request= new XMLHttpRequest();
 
 //capture the response and store it in a variable
   request.onreadystatechange=function(){
-   if (request.readystate===XMLHttpRequest.DONE){
+   if (request.readystate===request.DONE){
        //take some action
        if(request.status===200){
            var counter=request.responseText;
