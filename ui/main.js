@@ -11,8 +11,7 @@ var request= new XMLHttpRequest();
        //take some action
        if(request.status===200){
            var counter=request.responseText;
-        counter=counter+1;
-           var span=document.getElementById('count');
+           var span=document.getElementById('counter');
            span.innerHTML=counter.toString();
        }
    } 
